@@ -5,6 +5,10 @@ Lucca: 560731
 Diego: 556724
 Joud:  556482
 
+# Link Figma
+
+https://www.figma.com/design/gC6j0IEZArnAwF9Sw1t0Ul/GS.FRONT%2FWEB?node-id=0-1&node-type=canvas&t=Ps6XXR48rvKDX5Tc-0
+
 # Usos da linguagem
 1.HTML
 2.CSS
