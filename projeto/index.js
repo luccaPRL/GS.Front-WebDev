@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const panelSelect = document.getElementById('panelSelect');
     const panelInfo = document.getElementById('panelInfo');
     
-    // Manipula a seleção de panela
     panelSelect.addEventListener('change', function () {
         const selectedOption = panelSelect.value;
         panelInfo.innerHTML = '';
