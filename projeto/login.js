@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const loginForm = document.getElementById('loginForm');
     const errorMessage = document.getElementById('error-message');
 
+    // Validacao do formulario
     loginForm.addEventListener('submit', function (event) {
         event.preventDefault();
 

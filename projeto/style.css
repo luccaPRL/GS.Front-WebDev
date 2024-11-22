@@ -1,3 +1,5 @@
+/* Não achei necessario comentar o css so o final ja que consultamos alguns sites para poder aprender algumas coisas novas */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -153,6 +155,7 @@ nav ul li a {
     border-radius: 8px;
 }
 
+/* Ajustes responsivos */
 @media (max-width: 768px) {
     header {
         padding: 20px;

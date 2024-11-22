@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const panelSelect = document.getElementById('panelSelect');
     const panelInfo = document.getElementById('panelInfo');
     
+    //Atualiza informacoes ao mudar as versoes da panela
     panelSelect.addEventListener('change', function () {
         const selectedOption = panelSelect.value;
         panelInfo.innerHTML = '';
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    //Lógica formulário contato
     const contactForm = document.getElementById('contactForm');
     contactForm.addEventListener('submit', function (event) {
         event.preventDefault();
