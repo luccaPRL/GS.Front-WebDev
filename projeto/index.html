@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarCooker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Bem-vindo ao SolarCooker</h1>
+        <nav>
+            <ul>
+                <li><a href="#informacoes">Informações</a></li>
+                <li><a href="#versoes">Versões</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="informacoes">
+            <h2>Sobre o Produto</h2>
+            <p>A panela solar é um produto inovador que usa energia solar para cozinhar de forma eficiente e sustentável.</p>
+        </section>
+
+        <section id="versoes">
+            <h2>Versões da Panela</h2>
+            <p>Escolha uma versão de panela solar para saber mais:</p>
+            <select id="panelSelect">
+                <option value="none">Selecionar</option>
+                <option value="versao1">Panela Solar Compacta</option>
+                <option value="versao2">Panela Solar Premium</option>
+            </select>
+            <div id="panelInfo">
+                <p>Detalhes da panela aparecerão aqui.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto SolarCooker | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
